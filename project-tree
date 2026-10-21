@@ -1,0 +1,29 @@
+project/
+├── app/
+│   ├── __init__.py
+│   ├── config.py
+│   ├── database.py
+│   ├── models.py
+│   ├── schemas.py
+│   ├── main.py
+│   ├── services/
+│   │   ├── __init__.py
+│   │   ├── municipality_service.py
+│   │   ├── program_service.py
+│   │   ├── compliance_service.py
+│   │   └── report_service.py
+│   ├── routes/
+│   │   ├── __init__.py
+│   │   ├── municipalities.py
+│   │   ├── programs.py
+│   │   ├── cases.py
+│   │   └── compliance.py
+│   └── rules/
+│       ├── __init__.py
+│       ├── municipal_rules.py
+│       └── evaluation_engine.py
+├── seed_jalisco_municipalities.py
+├── requirements.txt
+├── .env.example
+├── README.md
+└── docker-compose.yml
